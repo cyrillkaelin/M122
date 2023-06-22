@@ -13,5 +13,6 @@
 ### Datensicherungen
 #### Das Skript kann regelmäßige Backups wichtiger Daten oder Dateien durchführen. Es kann automatisch definierte Verzeichnisse oder Dateien sichern und diese an einem sicheren Speicherort speichern, wie z. B. auf einer externen Festplatte oder in der Cloud. Für das Projekt werde ich wahrscheinlich eher ein Truenas aufsetzen und es dann dort speichern
 ----
-### Informationen Loggen und in ein Logfile schreiben lassen
+### LOG's
+##### Informationen Loggen und in ein Logfile schreiben lassen
 
