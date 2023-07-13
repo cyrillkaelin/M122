@@ -1,18 +1,27 @@
 # M122
 
-## Taskautomatisierung
-### Automatisierung Systemwartungen
-##### Das Skript kann regelmäßige Systemwartungen planen und ausführen, um die Leistung und Stabilität des Systems zu optimieren. Dazu gehören Aufgaben wie das Löschen temporärer Dateien, das Defragmentieren von Festplatten, das Überprüfen und Reparieren von Dateisystemen oder das Aktualisieren von Treibern.
----
-### Softwareaktualisierungen:
-##### Das Skript kann nach verfügbaren Softwareaktualisierungen suchen und diese automatisch installieren. Dies kann für Betriebssysteme, Anwendungen, Antivirenprogramme oder andere Softwarekomponenten gelten. Es kann auch spezifische Update-Richtlinien oder -Prioritäten basierend auf den Anforderungen des Systems festlegen.
----
-### Bereinigungsaktionen
-##### Das Skript kann verschiedene Bereinigungsaktionen durchführen, um unnötige oder veraltete Daten zu entfernen und Speicherplatz freizugeben. Dazu gehören das Löschen von nicht verwendeten Dateien, das Leeren des Papierkorbs, das Bereinigen von Browser-Caches oder das Entfernen von temporären Dateien.
------
-### Datensicherungen
-#### Das Skript kann regelmäßige Backups wichtiger Daten oder Dateien durchführen. Es kann automatisch definierte Verzeichnisse oder Dateien sichern und diese an einem sicheren Speicherort speichern, wie z. B. auf einer externen Festplatte oder in der Cloud. Für das Projekt werde ich wahrscheinlich eher ein Truenas aufsetzen und es dann dort speichern
-----
-### LOG's
-##### Informationen Loggen und in ein Logfile schreiben lassen
+## Backup Automatisierung
+### Muss Kriterien
+- Backup kann auf drei verschieden Arten durchgeführt werden
+- Speicherungspfad kann ausgewählt werden
+- Backupdateipfad kann selber ausgewählt werden
 
+### Kann Kriterien
+- Restore kann gemacht werden
+- Info Page
+
+## Betriebsdokumentation
+### Installationsanleitung für Administratoren
+1. Ubuntu Installieren
+2. script auf den Desktop ziehen
+3. Terminal öffnen
+4. sudo chmod +x script.sh
+5. sudo ./script.sh ausführen
+
+### Bedienungsanleitung für Benutzer
+1. Terminal öffnen
+2. sudo ./script.sh ausführen
+3. Auswahl zwischen den Backupmöglichkeiten
+4. Source Pfadangabe
+5. Destination Pfadangabe
+6. Backup wird gemacht!
