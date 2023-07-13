@@ -15,13 +15,15 @@
 1. Ubuntu Installieren
 2. script auf den Desktop ziehen
 3. Terminal öffnen
-4. sudo chmod +x script.sh
-5. sudo ./script.sh ausführen
+4. cd Desktop (oder dort wo das Script abgelegt wurde)
+5. sudo chmod +x script.sh
+6. sudo ./script.sh ausführen
 
 ### Bedienungsanleitung für Benutzer
 1. Terminal öffnen
-2. sudo ./script.sh ausführen
-3. Auswahl zwischen den Backupmöglichkeiten
-4. Source Pfadangabe
-5. Destination Pfadangabe
-6. Backup wird gemacht!
+2. cd Desktop (oder dort wo das Script abgelegt wurde)
+3. sudo ./script.sh ausführen
+4. Auswahl zwischen den Backupmöglichkeiten
+5. Source Pfadangabe
+6. Destination Pfadangabe
+7. Backup wird gemacht!
